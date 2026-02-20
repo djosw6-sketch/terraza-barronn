@@ -1,0 +1,109 @@
+/* Fuente Poppins */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px 0;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+}
+
+.galeria {
+    padding: 40px 20px;
+    background-color: #f3f3f3;
+}
+
+.galeria h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.galeria .imagenes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 300px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+.info {
+    padding: 40px 20px;
+}
+
+.info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 1em;
+}
+
+/* Botón flotante WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
